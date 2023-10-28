@@ -1,0 +1,189 @@
+*{
+    margin: 0;padding: 0; box-sizing: border-box;font-family: 'popins',sans-serif;
+}
+
+body{
+    background: black; color: white;
+}
+ 
+
+
+.header img{
+    height: 100px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.language-btn{
+    align-items: center;
+    background: transparent;
+    padding: 7px 10px;
+     border: none;
+     background-color: red;
+     color: white;
+}
+
+.col{
+    margin-left: 1100px;
+    margin-top: -100px;
+}
+
+
+.contend{
+    /* background-image:url(https://assets.nflxext.com/ffe/siteui/vlv3/9db4a880-3034-4e98-bdea-5d983e86bf52/b5953637-091d-4e02-9754-2bfadc8a8f7c/IN-en-20230925-popsignuptwoweeks-perspective_alpha_website_large.jpg); */
+    background-image: linear-gradient(rgba(24, 24, 24, 0.7),rgba(24, 24, 24, 0.7)),url(https://assets.nflxext.com/ffe/siteui/vlv3/9db4a880-3034-4e98-bdea-5d983e86bf52/b5953637-091d-4e02-9754-2bfadc8a8f7c/IN-en-20230925-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+
+}
+
+
+.header-content h1{
+    text-align: center;
+    font-size: 55px;
+    margin-top: 200px;
+}
+
+.header-content p{
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.box input{
+    width: 300px;
+    height: 40px;
+    margin-left: 300px;
+    margin-top: 50px;
+
+}
+
+
+.but{
+    height: 40px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+
+.box{
+    padding: 20px;
+    margin-top: 100px;
+    padding-bottom: 150px;
+}
+
+
+
+.text h2{
+    text-align: center;
+    font-size: 55px;
+    padding: 50px 12%;
+}
+
+
+.text p{
+    text-align: center;
+    font-size: 30px;
+    margin-top: -25px;
+    padding:50px 0;
+}
+
+.image{
+    margin-left: 300px;
+    width:90%;
+
+}
+
+.button{ 
+    height: 40px;
+    width: 100px;
+    background-color:black;
+    color: white;
+    border: 1px solid white;margin-right: -10;
+}
+.btn{
+    padding: 20px;
+    margin-top: 100px;
+    padding-bottom: 150px;
+    margin-bottom: 900px;
+}
+
+.accordion{
+    text-align: center;
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+
+.accordion li{
+    list-style: none;width: 100%;padding:5px;
+}
+
+.accordion li label{
+    display: flex;align-items: center;padding: 20px;font-size: 18px;
+    font-weight: 500;background: #303030;margin-bottom: 2px;cursor: pointer;
+    
+}
+label::after{
+    content :'+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+
+input[type="radio"]{
+    display:none;
+}
+
+.accordion .content{   
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden; transition: max-height 0.5s,padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 600px; padding: 30px 20px;
+}
+
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+
+.faq .email-signup{
+    max-width:600px; margin:20px auto 60px;
+}
+
+.faq small{
+    font-size: 13px;
+}
+
+.footer{
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color:#777
+}
+
+.footer h2{
+    font-size: 18px; font-weight: 400; margin-bottom: 30px;
+}
+
+.footer .col{
+    flex-basis: 25%; flex-grow: 1; margin-bottom: 20px;
+}
+
+.footer .col a{
+    display: block; text-decoration: none; color: #777;font-size: 14px;margin-bottom: 10px;
+}
+
+.footer .language-btn{
+    color: '#fff';
+    padding: 10px 20px;border-radius: 3px;
+}
+
+copyright-txt{
+    font-size: 14px; margin-top: 20px;margin-bottom: 10px;
+}
